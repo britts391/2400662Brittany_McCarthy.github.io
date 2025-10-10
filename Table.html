@@ -4,6 +4,7 @@
 <head>
         <!--The head element provides information and instructions to the browser about the document. -->
         <title>My favourite movies song and books</title> <!--The contents of the title element appear in the browser title bar.-->
+        <link rel="stylesheet" type="text/css" href="stylesheet/Table.css" />
    
         <style>
             img {
@@ -35,11 +36,11 @@
 
             <!--Logo-->
             <img src="../Assets/Logo.png" alt="image not found" height="150" width="150" align="left" />
-            <center> <h1>  <u>My Favorite Movies, Songs and Books </u> </h1></center>
+             <h1 style="color: black;  text-align: center; text-decoration: underline;"> <u>My Favorite Movies, Songs and Books </u> </h1>
 
 
             
-            <table border="1" bgcolor="violet" align="center" cellspacing="5" cellpadding="0">
+            <table >
                 <tr>
                     <th>Books</th>
                     <th>Songs</th>
@@ -47,7 +48,7 @@
 
                 </tr>
                 <tr>
-                    <td>
+                    <td datalabel="Books">
                         <ul>
                             <li> Title:"To Kill a Mocking Bird"</li>
                             <li> Author: Harper Lee</li>
@@ -57,14 +58,14 @@
                         </ul>
 
                     </td>
-                    <td>
+                    <td data-label="Songs">
                         <ul>
                             <li> Title:Perfect</li>
                             <li> Artiste: Ed-Sheeran </li>
                             <li> <a href="https://www.youtube.com/watch?v=2Vv-BfVoq4g&list=RD2Vv-BfVoq4g&start_radio=1" vlink="pink" target="_blank">SongLink</a></li>
                         </ul>
                     </td>
-                    <td>
+                    <td data-label="Movies">
                         <ul>
                             <li>Title:The Garfield Movie </li>
                             <li>
@@ -77,7 +78,7 @@
                 </tr>
 
                 <tr>
-                    <td>
+                    <td data-label="Books">
                         <ul>
                             <li> Title:"The Silver Sword"</li>
                             <li> Author:Ian Serraillier </li>
@@ -87,14 +88,14 @@
                         </ul>
 
                     </td>
-                    <td>
+                    <td data-label="Songs">
                         <ul>
                             <li> Title:Laho</li>
                             <li> Artiste: Shallipopi </li>
                             <li> <a href="https://www.youtube.com/watch?v=qARrn7G067w&list=RDqARrn7G067w&start_radio=1" link="blue" vlink="pink" target="_blank">SongLink</a></li>
                         </ul>
                     </td>
-                    <td>
+                    <td data-label="Movies">
                         <ul>
                             <li>Title:The Wild Robot </li>
                             <li>
@@ -106,7 +107,7 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>
+                    <td data-label="Books">
                         <ul>
                             <li> Title:"It's Halloween I'm Turning Green"</li>
                             <li> Author: Dan Gutman</li>
@@ -114,14 +115,14 @@
                             <li> Image: <img src="../Assets/book3.jpg" alt="image not found" height="100" width="100" align="right" /></li>
                         </ul>
                     </td>
-                    <td>
+                    <td data-label="Songs">
                         <ul>
                             <li> Title:Carry me</li>
                             <li> Artiste: Kevin Downswell </li>
                             <li> <a href="../Assets/https://www.youtube.com/watch?v=AmmsGeiDD34" link="blue" vlink="pink" target="_blank">SongLink</a></li>
                         </ul>
                     </td>
-                    <td>
+                    <td data-label="Movies">
                         <ul>
                             <li>Title: Puss in boots Last Wish </li>
                             <li>Image:
